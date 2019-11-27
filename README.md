@@ -26,10 +26,18 @@ _Add info here_
     cd rails-test-app
     ```
 
-3. Run the necessary docker containers
+3. Build the necessary docker containers
+
+    ```
+    docker-compose run web rails new . --force --no-deps --database=postgresql
+    docker-compose build
+    ```
+
+3. Run the created docker containers
 
     ```
     docker-compose up -d
+    docker-compose run web rake db:create
     ```
 
 4. Fire up your browser and go to `localhost:3000`.
