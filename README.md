@@ -1,4 +1,4 @@
-<h1 align="center"> Rin Minase's Anime Database </h1>
+<h1 align="center"> Ruby on Rails Test Application </h1>
 
 <p align="center">
     <a href="https://www.ruby-lang.org/en/">
